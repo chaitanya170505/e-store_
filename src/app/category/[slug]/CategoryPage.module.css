@@ -1,0 +1,28 @@
+/* CategoryPage.module.css */
+
+.section {
+  padding: 60px 40px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.heading {
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.productGrid {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.noProducts {
+  font-size: 18px;
+  color: #666;
+  text-align: center;
+  margin-top: 40px;
+}

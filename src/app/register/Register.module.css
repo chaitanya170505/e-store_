@@ -1,0 +1,41 @@
+.wrapper {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  width: 320px;
+  padding: 30px;
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form h2 {
+  text-align: center;
+}
+
+.form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.form button {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.form button:hover {
+  opacity: 0.85;
+}
+
+.message {
+  text-align: center;
+  font-size: 14px;
+}

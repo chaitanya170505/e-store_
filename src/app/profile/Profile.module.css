@@ -1,0 +1,83 @@
+.wrapper {
+  padding: 60px 40px;
+  max-width: 960px; /* wider for desktop */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+/* Card */
+.card {
+  border: 1px solid #e5e7eb;
+  padding: 36px;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 10px 32px rgba(0, 0, 0, 0.08);
+}
+
+/* Profile Header */
+.profileHeader {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+/* Avatar */
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #e5e7eb;
+  background: #f3f4f6;
+}
+
+/* Buttons */
+.logoutBtn,
+.viewCartBtn {
+  border: none;
+  padding: 14px 28px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background 0.2s ease, transform 0.15s ease;
+}
+
+.logoutBtn:hover,
+.viewCartBtn:hover {
+  transform: translateY(-2px);
+}
+
+/* Logout */
+.logoutBtn {
+  background: #b45309;
+  color: #ffffff;
+}
+
+.logoutBtn:hover {
+  background: #92400e;
+}
+
+/* View Cart */
+.viewCartBtn {
+  background: #2563eb;
+  color: #ffffff;
+  margin-top: 16px;
+}
+
+.viewCartBtn:hover {
+  background: #1e40af;
+}
+
+/* Desktop typography boost */
+.card h2 {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.card p {
+  font-size: 16px;
+  line-height: 1.7;
+}
